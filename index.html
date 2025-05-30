@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Microsoft To Do Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Day</h1>
+      <p class="date" id="currentDate"></p>
+    </header>
+
+    <section class="add-task">
+      <input type="text" id="taskInput" placeholder="Add a task..." />
+      <button onclick="addTask()">+</button>
+    </section>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
